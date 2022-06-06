@@ -1,16 +1,16 @@
-class Node <T> {  // Esta classe deve ter visibilidade de pacote
-    private T info;
-    private Node <T> prox;
+class Node <D> {  
+    private D info;
+    private Node <D> prox;
     
-    Node (T valor) {
+    Node (D valor) {
         this.info = valor;
     }
     
-    T getInfo() {
+    D getInfo() {
         return this.info;
     }
     
-    void setInfo (T valor) {
+    void setInfo (D valor) {
         this.info = valor;
     }
     
